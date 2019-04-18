@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.MovieDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:alpha="0.8"
+            android:id="@+id/movie_poster_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:fontFamily="@font/nova"
+                    android:id="@+id/movie_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text=" "
+                    android:textColor="@color/colorWhite"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/movie_original_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="   "
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/movie_id_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text=" "
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/movie_release_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="   "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/movie_original_language_tv"
+                android:layout_width="wrap_content"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="   "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/movie_genre_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:fontFamily="@font/nova"
+                android:id="@+id/movie_details_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/movie_vote_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="   "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/movie_vote_average_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="   "
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/movie_popularity_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=" "
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

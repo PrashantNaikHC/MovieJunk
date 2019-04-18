@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Junk</string>
+    <string name="searchTitle">Search</string>
+    <string name="home">Home</string>
+    <string name="newName">new name</string>
+    <string-array name="arrray">
+        <item>valie</item>
+    </string-array>
+</resources>
